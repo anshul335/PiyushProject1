@@ -71,7 +71,7 @@ Frontend will run at 👉 http://localhost:5173
 
 # Live link
 
-### Backend
+### Backend (we are using free version of render of it is possible that sometimes it gives bad gateway or likewise errors, but after a few minutes it will again begin to accept the requests and becomes live)
 https://mindful-dashboard.onrender.com/
 
 ### frontend
