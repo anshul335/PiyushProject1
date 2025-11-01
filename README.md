@@ -17,8 +17,8 @@ It helps you manage your daily tasks, focus sessions, and track your progress us
 
 ### 🖥️ 1. Clone the Repository
 
-git clone https://github.com/anshul335/PiyushProject1.git
-cd focusflow
+- git clone https://github.com/anshul335/PiyushProject1.git
+- cd focusflow
 
 ### 2. Setup Backend (FastAPI)
 - cd backend
