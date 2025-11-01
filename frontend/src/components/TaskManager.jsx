@@ -7,7 +7,8 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Plus, X, CheckCircle2 } from 'lucide-react';
 import { toast } from 'sonner';
 
-const API_BASE = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
+const API_BASE = (process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000').replace(/\/$/, '');
+
 
 export const TaskManager = ({ tasks, setTasks }) => {
   const [newTask, setNewTask] = useState('');
