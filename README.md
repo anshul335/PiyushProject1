@@ -68,3 +68,11 @@ Frontend will run at 👉 http://localhost:5173
  ┣ package.json
  ┣ requirements.txt
  ┗ README.md
+
+# Live link
+
+### Backend
+https://mindful-dashboard.onrender.com/
+
+### frontend
+https://shiny-lily-c1b101.netlify.app/
