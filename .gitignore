@@ -1,0 +1,79 @@
+# =========================
+# 🧠 GENERAL
+# =========================
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.log
+*.sqlite3
+*.db
+
+# =========================
+# ⚙️ PYTHON / FASTAPI
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+venv/
+env/
+.venv/
+.env/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+instance/
+*.pem
+
+# Uvicorn/pytest logs
+*.log
+*.pid
+*.json
+test_result.md
+# =========================
+# ⚛️ REACT (VITE FRONTEND)
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+.vite/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+*.tsbuildinfo
+
+# React local dev files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# 📦 IDE / OS FILES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.lock
+
+# =========================
+# 🗄️ DEPLOYMENT / MISC
+# =========================
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+uploads/
+staticfiles/
+__pycache__/
