@@ -56,30 +56,111 @@ Frontend will run at 👉 http://localhost:5173
 
 ### Project Structure
 ```bash
-📦 focusflow/
- ┣ 📂 frontend/
- ┃ ┣ 📂 src/components/
- ┃ ┃ ┣ BackgroundManager.jsx
- ┃ ┃ ┣ FocusTimer.jsx
- ┃ ┃ ┣ TaskManager.jsx
- ┃ ┃ ┣ DailyFocus.jsx
- ┃ ┃ ┣ QuoteCard.jsx
- ┃ ┃ ┗ QuickWidgets.jsx
- ┃ ┣ Dashboard.jsx
- ┃ ┣ main.jsx
- ┃ ┣ index.css
- ┃ ┗ .env
- ┣ 📂 backend/
- ┃ ┣ server.py
- ┃ ┗ .env
- ┣ package.json
- ┣ requirements.txt
- ┗ README.md
+├── .emergent
+    ├── emergent.yml
+    └── markers
+    │   └── .bootstrap-complete
+├── .gitignore
+├── README.md
+├── backend
+    ├── .env
+    ├── requirements.txt
+    └── server.py
+├── frontend
+    ├── .env
+    ├── .gitignore
+    ├── README.md
+    ├── craco.config.js
+    ├── plugins
+    │   ├── health-check
+    │   │   ├── health-endpoints.js
+    │   │   └── webpack-health-plugin.js
+    │   └── visual-edits
+    │   │   ├── babel-metadata-plugin.js
+    │   │   └── dev-server-setup.js
+    ├── postcss.config.js
+    ├── public
+    │   └── index.html
+    ├── repomix-output.xml
+    ├── src
+    │   ├── App.css
+    │   ├── App.js
+    │   ├── components
+    │   │   ├── BackgroundManager.jsx
+    │   │   ├── DailyFocus.jsx
+    │   │   ├── FocusTimer.jsx
+    │   │   ├── QuickWidgets.jsx
+    │   │   ├── QuoteCard.jsx
+    │   │   ├── SettingsPanel.jsx
+    │   │   ├── TaskManager.jsx
+    │   │   └── ui
+    │   │   │   ├── accordion.jsx
+    │   │   │   ├── alert-dialog.jsx
+    │   │   │   ├── alert.jsx
+    │   │   │   ├── aspect-ratio.jsx
+    │   │   │   ├── avatar.jsx
+    │   │   │   ├── badge.jsx
+    │   │   │   ├── breadcrumb.jsx
+    │   │   │   ├── button.jsx
+    │   │   │   ├── calendar.jsx
+    │   │   │   ├── card.jsx
+    │   │   │   ├── carousel.jsx
+    │   │   │   ├── checkbox.jsx
+    │   │   │   ├── collapsible.jsx
+    │   │   │   ├── command.jsx
+    │   │   │   ├── context-menu.jsx
+    │   │   │   ├── dialog.jsx
+    │   │   │   ├── drawer.jsx
+    │   │   │   ├── dropdown-menu.jsx
+    │   │   │   ├── form.jsx
+    │   │   │   ├── hover-card.jsx
+    │   │   │   ├── input-otp.jsx
+    │   │   │   ├── input.jsx
+    │   │   │   ├── label.jsx
+    │   │   │   ├── menubar.jsx
+    │   │   │   ├── navigation-menu.jsx
+    │   │   │   ├── pagination.jsx
+    │   │   │   ├── popover.jsx
+    │   │   │   ├── progress.jsx
+    │   │   │   ├── radio-group.jsx
+    │   │   │   ├── resizable.jsx
+    │   │   │   ├── scroll-area.jsx
+    │   │   │   ├── select.jsx
+    │   │   │   ├── separator.jsx
+    │   │   │   ├── sheet.jsx
+    │   │   │   ├── skeleton.jsx
+    │   │   │   ├── slider.jsx
+    │   │   │   ├── sonner.jsx
+    │   │   │   ├── switch.jsx
+    │   │   │   ├── table.jsx
+    │   │   │   ├── tabs.jsx
+    │   │   │   ├── textarea.jsx
+    │   │   │   ├── toast.jsx
+    │   │   │   ├── toaster.jsx
+    │   │   │   ├── toggle-group.jsx
+    │   │   │   ├── toggle.jsx
+    │   │   │   └── tooltip.jsx
+    │   ├── hooks
+    │   │   └── use-toast.js
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── lib
+    │   │   └── utils.js
+    │   └── pages
+    │   │   └── Dashboard.jsx
+    └── tailwind.config.js
+└── tests
+    └── __init__.py
 ```
+
 # Live link
 
 ### Backend (we are using free version of render of it is possible that sometimes it gives bad gateway or likewise errors, but after a few minutes it will again begin to accept the requests and becomes live)
+```bash
 https://mindful-dashboard.onrender.com/
-
-### frontend
+```
+### Frontend
+```bash
 https://shiny-lily-c1b101.netlify.app/
+```
+
