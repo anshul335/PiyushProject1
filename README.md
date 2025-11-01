@@ -17,27 +17,34 @@ It helps you manage your daily tasks, focus sessions, and track your progress us
 
 ### 🖥️ 1. Clone the Repository
 
-- git clone https://github.com/anshul335/PiyushProject1.git
-- cd focusflow
+```bash
+git clone https://github.com/anshul335/PiyushProject1.git
+cd PiyushProject1
+```
 
 ### 2. Setup Backend (FastAPI)
-- cd backend
-- python -m venv venv
-- venv\Scripts\activate      # For Windows
+
+```bash
+cd backend
+python -m venv venv
+venv\Scripts\activate      # For Windows
 
 or
 
-- source venv/bin/activate   # For Mac/Linux
-- pip install -r requirements.txt
-- uvicorn server:app --reload
+source venv/bin/activate   # For Mac/Linux
+pip install -r requirements.txt
+uvicorn server:app --reload
+```
 
 Backend will start at 👉 http://localhost:8000
 
 ### 3. Setup Frontend (React+Vite)
-- cd frontend
-- npm install
-- npm run dev
 
+```bash
+cd frontend
+npm install
+npm run dev
+```
 Frontend will run at 👉 http://localhost:5173
 
 ### ✨ Features
@@ -48,7 +55,7 @@ Frontend will run at 👉 http://localhost:5173
 - 🌗 Dynamic Dashboard: Light/Dark mode, motivational quotes, and persistent settings
 
 ### Project Structure
-
+```bash
 📦 focusflow/
  ┣ 📂 frontend/
  ┃ ┣ 📂 src/components/
@@ -68,7 +75,7 @@ Frontend will run at 👉 http://localhost:5173
  ┣ package.json
  ┣ requirements.txt
  ┗ README.md
-
+```
 # Live link
 
 ### Backend (we are using free version of render of it is possible that sometimes it gives bad gateway or likewise errors, but after a few minutes it will again begin to accept the requests and becomes live)
